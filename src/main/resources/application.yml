@@ -2,6 +2,6 @@ spring:
   datasource:
     schema: classpath:import.sql
 mybatis:
+  config-location: classpath:mybatis-config.xml
   type-aliases-package: io.yorkecao.mybatisspringbootsample.domain
   mapper-locations: classpath:io/yorkecao/mybatisspringbootsample/mapper/*.xml
-
